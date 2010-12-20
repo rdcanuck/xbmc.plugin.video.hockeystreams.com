@@ -13,7 +13,7 @@ from xml.dom.minidom import parseString
 # added Dharma addon support. Now runs in XBMC v10 (Dharma)
 # as part of new addon repository design
 # added addon.xml file + logo.png 
-# v2.01
+# v2.01 Dec.20/10
 # url changed from www. to www6.
               
 def get_params():

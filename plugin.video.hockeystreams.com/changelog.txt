@@ -4,3 +4,6 @@ Version 1.0 - October 2010
 Version 2.0 - December 5, 2010
 Added Dharma compatibility for getsettings.
 Added addon.xml, logo.png, licences.txt, changelog.txt files
+
+Version 2.01 - December 20, 2010
+Changed urls to www6... from www...
