@@ -13,7 +13,8 @@ from xml.dom.minidom import parseString
 # added Dharma addon support. Now runs in XBMC v10 (Dharma)
 # as part of new addon repository design
 # added addon.xml file + logo.png 
-#
+# v2.01
+# url changed from www. to www6.
               
 def get_params():
         param=[]
@@ -71,8 +72,8 @@ def addIpException(browser):
 
 
 def CATEGORIES():
-        addDir('Live Games', 'http://www.hockeystreams.com/rss/streams.php', 1, '')
-        addDir('Archives', 'http://www.hockeystreams.com/hockey_archives', 2, '')
+        addDir('Live Games', 'http://www6.hockeystreams.com/rss/streams.php', 1, '')
+        addDir('Archives', 'http://www6.hockeystreams.com/hockey_archives', 2, '')
         addDir('Add IP Exception', '', 9, '')
                        
 def ARCHIVES(browser, url):
